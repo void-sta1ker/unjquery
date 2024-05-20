@@ -1,0 +1,3 @@
+# tmp folders for development and testing
+examples/*.js
+out

@@ -1,0 +1,220 @@
+<ref *1> NodePath {
+  contexts: [
+    TraversalContext {
+      queue: [Array],
+      priorityQueue: [],
+      parentPath: [NodePath],
+      scope: [Scope],
+      state: undefined,
+      opts: [Object]
+    }
+  ],
+  state: undefined,
+  opts: {
+    CallExpression: { enter: [Array] },
+    _exploded: true,
+    _verified: true
+  },
+  _traverseFlags: 0,
+  skipKeys: null,
+  parentPath: NodePath {
+    contexts: [ [TraversalContext] ],
+    state: undefined,
+    opts: { CallExpression: [Object], _exploded: true, _verified: true },
+    _traverseFlags: 0,
+    skipKeys: null,
+    parentPath: NodePath {
+      contexts: [Array],
+      state: undefined,
+      opts: [Object],
+      _traverseFlags: 0,
+      skipKeys: null,
+      parentPath: [NodePath],
+      container: [Object],
+      listKey: undefined,
+      key: 'left',
+      node: [Object],
+      type: 'MemberExpression',
+      parent: [Object],
+      hub: undefined,
+      data: null,
+      context: [TraversalContext],
+      scope: [Scope]
+    },
+    container: {
+      type: 'MemberExpression',
+      object: [Object],
+      property: [Object],
+      computed: false,
+      optional: null
+    },
+    listKey: undefined,
+    key: 'object',
+    node: {
+      type: 'MemberExpression',
+      object: [Node],
+      property: [Object],
+      computed: false,
+      optional: null
+    },
+    type: 'MemberExpression',
+    parent: {
+      type: 'MemberExpression',
+      object: [Object],
+      property: [Object],
+      computed: false,
+      optional: null
+    },
+    hub: undefined,
+    data: null,
+    context: TraversalContext {
+      queue: [Array],
+      priorityQueue: [],
+      parentPath: [NodePath],
+      scope: [Scope],
+      state: undefined,
+      opts: [Object]
+    },
+    scope: Scope {
+      uid: 0,
+      path: [NodePath],
+      block: [Node],
+      labels: Map(0) {},
+      inited: true,
+      bindings: [Object: null prototype] {},
+      references: [Object: null prototype] {},
+      globals: [Object: null prototype],
+      uids: [Object: null prototype] {},
+      data: [Object: null prototype] {},
+      crawling: false
+    }
+  },
+  container: {
+    type: 'MemberExpression',
+    object: Node {
+      type: 'CallExpression',
+      start: 0,
+      end: 8,
+      loc: [SourceLocation],
+      callee: [Node],
+      arguments: [Array]
+    },
+    property: { type: 'Identifier', name: 'style' },
+    computed: false,
+    optional: null
+  },
+  listKey: undefined,
+  key: 'object',
+  node: Node {
+    type: 'CallExpression',
+    start: 0,
+    end: 8,
+    loc: SourceLocation {
+      start: [Position],
+      end: [Position],
+      filename: undefined,
+      identifierName: undefined
+    },
+    callee: Node {
+      type: 'Identifier',
+      start: 0,
+      end: 1,
+      loc: [SourceLocation],
+      name: '$'
+    },
+    arguments: [ [Node] ]
+  },
+  type: 'CallExpression',
+  parent: {
+    type: 'MemberExpression',
+    object: Node {
+      type: 'CallExpression',
+      start: 0,
+      end: 8,
+      loc: [SourceLocation],
+      callee: [Node],
+      arguments: [Array]
+    },
+    property: { type: 'Identifier', name: 'style' },
+    computed: false,
+    optional: null
+  },
+  hub: undefined,
+  data: null,
+  context: TraversalContext {
+    queue: [ [Circular *1] ],
+    priorityQueue: [],
+    parentPath: NodePath {
+      contexts: [Array],
+      state: undefined,
+      opts: [Object],
+      _traverseFlags: 0,
+      skipKeys: null,
+      parentPath: [NodePath],
+      container: [Object],
+      listKey: undefined,
+      key: 'object',
+      node: [Object],
+      type: 'MemberExpression',
+      parent: [Object],
+      hub: undefined,
+      data: null,
+      context: [TraversalContext],
+      scope: [Scope]
+    },
+    scope: Scope {
+      uid: 0,
+      path: [NodePath],
+      block: [Node],
+      labels: Map(0) {},
+      inited: true,
+      bindings: [Object: null prototype] {},
+      references: [Object: null prototype] {},
+      globals: [Object: null prototype],
+      uids: [Object: null prototype] {},
+      data: [Object: null prototype] {},
+      crawling: false
+    },
+    state: undefined,
+    opts: { CallExpression: [Object], _exploded: true, _verified: true }
+  },
+  scope: <ref *2> Scope {
+    uid: 0,
+    path: NodePath {
+      contexts: [Array],
+      state: undefined,
+      opts: [Object],
+      _traverseFlags: 0,
+      skipKeys: null,
+      parentPath: null,
+      container: [Node],
+      listKey: undefined,
+      key: 'program',
+      node: [Node],
+      type: 'Program',
+      parent: [Node],
+      hub: undefined,
+      data: null,
+      context: [TraversalContext],
+      scope: [Circular *2]
+    },
+    block: Node {
+      type: 'Program',
+      start: 0,
+      end: 31,
+      loc: [SourceLocation],
+      sourceType: 'module',
+      interpreter: null,
+      body: [Array],
+      directives: []
+    },
+    labels: Map(0) {},
+    inited: true,
+    bindings: [Object: null prototype] {},
+    references: [Object: null prototype] {},
+    globals: [Object: null prototype] { '$': [Node] },
+    uids: [Object: null prototype] {},
+    data: [Object: null prototype] {},
+    crawling: false
+  }
+}

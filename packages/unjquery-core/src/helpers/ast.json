@@ -1,0 +1,413 @@
+{
+  "type": "File",
+  "start": 0,
+  "end": 145,
+  "loc": {
+    "start": { "line": 1, "column": 0, "index": 0 },
+    "end": { "line": 8, "column": 0, "index": 145 }
+  },
+  "errors": [],
+  "program": {
+    "type": "Program",
+    "start": 0,
+    "end": 145,
+    "loc": {
+      "start": { "line": 1, "column": 0, "index": 0 },
+      "end": { "line": 8, "column": 0, "index": 145 }
+    },
+    "sourceType": "module",
+    "interpreter": null,
+    "body": [
+      {
+        "type": "ExpressionStatement",
+        "start": 0,
+        "end": 27,
+        "loc": {
+          "start": { "line": 1, "column": 0, "index": 0 },
+          "end": { "line": 1, "column": 27, "index": 27 }
+        },
+        "expression": {
+          "type": "AssignmentExpression",
+          "operator": "=",
+          "left": {
+            "type": "MemberExpression",
+            "object": {
+              "type": "MemberExpression",
+              "object": {
+                "type": "CallExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": { "type": "Identifier", "name": "document" },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "querySelectorAll"
+                  },
+                  "computed": false,
+                  "optional": null
+                },
+                "arguments": [
+                  {
+                    "type": "StringLiteral",
+                    "start": 2,
+                    "end": 5,
+                    "loc": {
+                      "start": { "line": 1, "column": 2, "index": 2 },
+                      "end": { "line": 1, "column": 5, "index": 5 }
+                    },
+                    "extra": { "rawValue": "p", "raw": "\"p\"" },
+                    "value": "p"
+                  }
+                ],
+                "trailingComments": [],
+                "leadingComments": [],
+                "innerComments": []
+              },
+              "property": { "type": "Identifier", "name": "style" },
+              "computed": false,
+              "optional": null
+            },
+            "property": { "type": "Identifier", "name": "color" },
+            "computed": false,
+            "optional": null
+          },
+          "right": {
+            "type": "StringLiteral",
+            "start": 20,
+            "end": 25,
+            "loc": {
+              "start": { "line": 1, "column": 20, "index": 20 },
+              "end": { "line": 1, "column": 25, "index": 25 }
+            },
+            "extra": { "rawValue": "red", "raw": "\"red\"" },
+            "value": "red"
+          },
+          "trailingComments": [],
+          "leadingComments": [],
+          "innerComments": []
+        }
+      },
+      {
+        "type": "ExpressionStatement",
+        "start": 29,
+        "end": 67,
+        "loc": {
+          "start": { "line": 3, "column": 0, "index": 29 },
+          "end": { "line": 3, "column": 38, "index": 67 }
+        },
+        "expression": {
+          "type": "CallExpression",
+          "callee": {
+            "type": "MemberExpression",
+            "object": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": { "type": "Identifier", "name": "document" },
+                "property": {
+                  "type": "Identifier",
+                  "name": "querySelectorAll"
+                },
+                "computed": false,
+                "optional": null
+              },
+              "arguments": [
+                {
+                  "type": "StringLiteral",
+                  "start": 31,
+                  "end": 34,
+                  "loc": {
+                    "start": { "line": 3, "column": 2, "index": 31 },
+                    "end": { "line": 3, "column": 5, "index": 34 }
+                  },
+                  "extra": { "rawValue": "p", "raw": "\"p\"" },
+                  "value": "p"
+                }
+              ],
+              "trailingComments": [],
+              "leadingComments": [],
+              "innerComments": []
+            },
+            "property": { "type": "Identifier", "name": "forEach" },
+            "computed": false,
+            "optional": null
+          },
+          "arguments": [
+            {
+              "type": "ArrowFunctionExpression",
+              "params": [{ "type": "Identifier", "name": "elm" }],
+              "body": {
+                "type": "BlockStatement",
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "expression": {
+                      "type": "CallExpression",
+                      "callee": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "CallExpression",
+                          "callee": {
+                            "type": "MemberExpression",
+                            "object": {
+                              "type": "StringLiteral",
+                              "value": "btn btn-primary"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "split"
+                            },
+                            "computed": false,
+                            "optional": null
+                          },
+                          "arguments": [
+                            { "type": "StringLiteral", "value": " " }
+                          ]
+                        },
+                        "property": { "type": "Identifier", "name": "forEach" },
+                        "computed": false,
+                        "optional": null
+                      },
+                      "arguments": [
+                        {
+                          "type": "ArrowFunctionExpression",
+                          "params": [{ "type": "Identifier", "name": "cls" }],
+                          "body": {
+                            "type": "BlockStatement",
+                            "body": [
+                              {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                  "type": "CallExpression",
+                                  "callee": {
+                                    "type": "MemberExpression",
+                                    "object": {
+                                      "type": "MemberExpression",
+                                      "object": {
+                                        "type": "Identifier",
+                                        "name": "elm"
+                                      },
+                                      "property": {
+                                        "type": "Identifier",
+                                        "name": "classList"
+                                      },
+                                      "computed": false,
+                                      "optional": null
+                                    },
+                                    "property": {
+                                      "type": "Identifier",
+                                      "name": "toggle"
+                                    },
+                                    "computed": false,
+                                    "optional": null
+                                  },
+                                  "arguments": [
+                                    { "type": "Identifier", "name": "cls" }
+                                  ]
+                                }
+                              }
+                            ],
+                            "directives": []
+                          },
+                          "async": false,
+                          "expression": null
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "directives": []
+              },
+              "async": false,
+              "expression": null
+            }
+          ],
+          "trailingComments": [],
+          "leadingComments": [],
+          "innerComments": []
+        }
+      },
+      {
+        "type": "ExpressionStatement",
+        "start": 69,
+        "end": 104,
+        "loc": {
+          "start": { "line": 5, "column": 0, "index": 69 },
+          "end": { "line": 5, "column": 35, "index": 104 }
+        },
+        "expression": {
+          "type": "CallExpression",
+          "callee": {
+            "type": "MemberExpression",
+            "object": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": { "type": "Identifier", "name": "document" },
+                "property": {
+                  "type": "Identifier",
+                  "name": "querySelectorAll"
+                },
+                "computed": false,
+                "optional": null
+              },
+              "arguments": [
+                {
+                  "type": "StringLiteral",
+                  "start": 71,
+                  "end": 74,
+                  "loc": {
+                    "start": { "line": 5, "column": 2, "index": 71 },
+                    "end": { "line": 5, "column": 5, "index": 74 }
+                  },
+                  "extra": { "rawValue": "p", "raw": "\"p\"" },
+                  "value": "p"
+                }
+              ],
+              "trailingComments": [],
+              "leadingComments": [],
+              "innerComments": []
+            },
+            "property": { "type": "Identifier", "name": "forEach" },
+            "computed": false,
+            "optional": null
+          },
+          "arguments": [
+            {
+              "type": "ArrowFunctionExpression",
+              "params": [{ "type": "Identifier", "name": "elm" }],
+              "body": {
+                "type": "BlockStatement",
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "expression": {
+                      "type": "CallExpression",
+                      "callee": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "MemberExpression",
+                          "object": { "type": "Identifier", "name": "elm" },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "classList"
+                          },
+                          "computed": false,
+                          "optional": null
+                        },
+                        "property": { "type": "Identifier", "name": "add" },
+                        "computed": false,
+                        "optional": null
+                      },
+                      "arguments": [
+                        { "type": "StringLiteral", "value": "btn" },
+                        { "type": "StringLiteral", "value": "btn-primary" }
+                      ]
+                    }
+                  }
+                ],
+                "directives": []
+              },
+              "async": false,
+              "expression": null
+            }
+          ],
+          "trailingComments": [],
+          "leadingComments": [],
+          "innerComments": []
+        }
+      },
+      {
+        "type": "ExpressionStatement",
+        "start": 106,
+        "end": 144,
+        "loc": {
+          "start": { "line": 7, "column": 0, "index": 106 },
+          "end": { "line": 7, "column": 38, "index": 144 }
+        },
+        "expression": {
+          "type": "CallExpression",
+          "callee": {
+            "type": "MemberExpression",
+            "object": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": { "type": "Identifier", "name": "document" },
+                "property": {
+                  "type": "Identifier",
+                  "name": "querySelectorAll"
+                },
+                "computed": false,
+                "optional": null
+              },
+              "arguments": [
+                {
+                  "type": "StringLiteral",
+                  "start": 108,
+                  "end": 111,
+                  "loc": {
+                    "start": { "line": 7, "column": 2, "index": 108 },
+                    "end": { "line": 7, "column": 5, "index": 111 }
+                  },
+                  "extra": { "rawValue": "p", "raw": "\"p\"" },
+                  "value": "p"
+                }
+              ],
+              "trailingComments": [],
+              "leadingComments": [],
+              "innerComments": []
+            },
+            "property": { "type": "Identifier", "name": "forEach" },
+            "computed": false,
+            "optional": null
+          },
+          "arguments": [
+            {
+              "type": "ArrowFunctionExpression",
+              "params": [{ "type": "Identifier", "name": "elm" }],
+              "body": {
+                "type": "BlockStatement",
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "expression": {
+                      "type": "CallExpression",
+                      "callee": {
+                        "type": "MemberExpression",
+                        "object": {
+                          "type": "MemberExpression",
+                          "object": { "type": "Identifier", "name": "elm" },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "classList"
+                          },
+                          "computed": false,
+                          "optional": null
+                        },
+                        "property": { "type": "Identifier", "name": "remove" },
+                        "computed": false,
+                        "optional": null
+                      },
+                      "arguments": [
+                        { "type": "StringLiteral", "value": "btn" },
+                        { "type": "StringLiteral", "value": "btn-primary" }
+                      ]
+                    }
+                  }
+                ],
+                "directives": []
+              },
+              "async": false,
+              "expression": null
+            }
+          ],
+          "trailingComments": [],
+          "leadingComments": [],
+          "innerComments": []
+        }
+      }
+    ],
+    "directives": []
+  },
+  "comments": []
+}
