@@ -1,5 +1,5 @@
 [build]
-  command = "pnpm --filter unjquery-web... run build"
+  command = "NODE_ENV=development pnpm install && pnpm --filter unjquery-web... run build"
   publish = "packages/unjquery-web/.next"
 
 [context.production.environment]
