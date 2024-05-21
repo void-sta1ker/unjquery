@@ -5,6 +5,4 @@
 [context.production.environment]
   NPM_FLAGS = "--prefer-offline --no-audit --progress false"
   NODE_VERSION = "16"
-
-[context.production]
-  environment = { NODE_ENV = "production" }
+  NODE_ENV = "production"
