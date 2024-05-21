@@ -14,7 +14,10 @@ $("p.desc").html();
 
 $("p.desc").html("<strong>WOW</strong>");
 
-$("p").css("color", "red").find(".special").css("color", "green");
+$("p")
+  .css("color", "red")
+  .find(".special")
+  .css("color", "green");
 
 $("ul.first")
   .find(".foo")
@@ -24,7 +27,9 @@ $("ul.first")
   .css("color", "green")
   .end();
 
-$("p").end().css("color", "red"); // [] -> ["p"] -> []
+$("p")
+  .end()
+  .css("color", "red"); // [] -> ["p"] -> []
 
 var p = [$("p").css("color", "red")];
 
@@ -32,9 +37,13 @@ $.each({ a: 1, b: 2 }, console.log);
 
 $.each([1, 2, 3], console.log);
 
-var pp = $.each($("p").css("color", "red"), console.log);
+var pp = $
+.each($("p")
+.css("color", "red"), console.log);
 
-$.each($("p").css("color", "red"), console.log);
+$
+  .each($("p")
+  .css("color", "red"), console.log);
 
 $("p").remove();
 
@@ -51,9 +60,15 @@ $("p").click(function (evt) {
   $(this).toggleClass("expanded");
 });
 
-$("p").pushStack($("q").css("color", "red")).html();
+$("p")
+  .pushStack($("q")
+  .css("color", "red"))
+  .html();
 
-jQuery([]).pushStack(document.getElementsByTagName("div")).remove().end();
+jQuery([])
+  .pushStack(document.getElementsByTagName("div"))
+  .remove()
+  .end();
 
 $.getJSON("/my/url", function (data) {});
 

@@ -1,3 +1,5 @@
 # tmp folders for development and testing
-examples/*.js
+# file not working, implemented same logic with ignorePatterns field from .eslintrc.json
+examples
 out
+src/imports

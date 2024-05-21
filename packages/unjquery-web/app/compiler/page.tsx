@@ -131,17 +131,17 @@ export default function Compiler() {
           />
 
           <button
-            className="absolute right-4 top-4 text-white text-sm bg-red-500 rounded-md px-3 py-1 hover:bg-red-400 transition duration-100"
-            onClick={onRandomize}
-          >
-            random
-          </button>
-
-          <button
-            className="absolute right-4 bottom-4 text-white text-sm bg-[#2b2b2b] rounded-md px-3 py-1 hover:bg-[#454545] transition duration-100"
+            className="absolute right-4 top-4 font-semibold text-sm text-white bg-[#2b2b2b] rounded-md px-3 py-1 hover:bg-[#454545] transition duration-100"
             onClick={onCompile}
           >
             compile
+          </button>
+
+          <button
+            className="absolute right-4 bottom-4 font-semibold text-sm text-white bg-red-500 rounded-md px-3 py-1 hover:bg-red-400 transition duration-100"
+            onClick={onRandomize}
+          >
+            random
           </button>
         </div>
 
@@ -150,7 +150,7 @@ export default function Compiler() {
         <div className="w-[500px] h-[500px] bg-[#2b2b2b] overflow-hidden rounded-md">
           <div className="w-full h-full overflow-auto relative">
             {result === "" ? (
-              <p className="text-[#a9b7c6] p-[10px] text-sm">
+              <p className="text-[#a9b7c6] p-[10px] font-semibold text-sm">
                 {!loading && !error ? "Result..." : null}
                 {loading && !error ? "Compiling..." : null}
                 {!loading && error ? error : null}
@@ -169,7 +169,7 @@ export default function Compiler() {
 
             {result && (
               <button
-                className="absolute right-4 bottom-4 text-white text-sm bg-blue-600 rounded-md px-3 py-1 hover:bg-blue-500 transition duration-100"
+                className="absolute right-4 bottom-4 font-semibold text-sm text-white bg-blue-500 rounded-md px-3 py-1 hover:bg-blue-400 transition duration-100"
                 onClick={onCopy}
               >
                 {copied ? "✔" : "copy"}

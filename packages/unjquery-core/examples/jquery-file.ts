@@ -1,3 +1,5 @@
+import $ from "jquery";
+
 $(function () {
   $(".draw").css({ height: $(window).height() + "px" });
 
