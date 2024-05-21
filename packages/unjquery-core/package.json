@@ -34,7 +34,6 @@
     "build": "tsc",
     "compile": "ts-node src/index.ts",
     "clean": "rimraf dist",
-    "prepare": "pnpm install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -59,7 +58,7 @@
     "typescript": "^5.1.6"
   },
   "engines": {
-    "node": "20.11.0",
+    "node": "^20.11.0",
     "pnpm": ">=9.1.1"
   },
   "packageManager": "pnpm@9.1.1",

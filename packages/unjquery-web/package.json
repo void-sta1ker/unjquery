@@ -17,7 +17,6 @@
     "start": "next start",
     "lint": "next lint",
     "clean": "rimraf .next",
-    "prepare": "pnpm install",
     "postinstall": "npx prisma generate"
   },
   "dependencies": {
@@ -43,7 +42,7 @@
     "typescript": "^5"
   },
   "engines": {
-    "node": "20.11.0",
+    "node": "^20.11.0",
     "pnpm": ">=9.1.1"
   },
   "packageManager": "pnpm@9.1.1",
