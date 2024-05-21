@@ -1,20 +1,39 @@
 {
   "name": "unjquery",
-  "version": "1.0.0",
+  "version": "1.0.0-alpha",
   "private": true,
-  "description": "",
-  "main": "index.js",
+  "description": "Backwards compatible jquery to javascript compiler",
+  "homepage": "https://github.com/void-sta1ker/unjquery#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/void-sta1ker/unjquery.git"
+  },
+  "bugs": {
+    "url": "https://github.com/void-sta1ker/unjquery/issues"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/sponsors/void-sta1ker"
+  },
+  "keywords": [
+    "compiler",
+    "parser",
+    "jquery",
+    "javascript"
+  ],
+  "author": "void-sta1ker",
+  "license": "MIT",
   "scripts": {
     "format": "prettier --write .",
     "format:check": "prettier --check .",
+    "lint": "eslint . --ext .js,.ts,.tsx",
+    "clean": "rimraf dist",
+    "prepare": "pnpm install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "void_sta1ker",
-  "license": "MIT",
   "engines": {
-    "node": "20.11.0",
-    "pnpm": "9.1.1"
+    "node": "^20.11.0",
+    "pnpm": "^9.1.1"
   },
   "packageManager": "pnpm@9.1.1",
   "volta": {

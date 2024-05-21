@@ -1,12 +1,24 @@
 {
   "name": "unjquery-web",
-  "version": "0.1.0",
+  "version": "1.0.0-alpha",
   "private": true,
+  "description": "jquery to javascript compiler website",
+  "homepage": "https://github.com/void-sta1ker/unjquery#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/void-sta1ker/unjquery.git"
+  },
+  "bugs": {
+    "url": "https://github.com/void-sta1ker/unjquery/issues"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "clean": "rimraf .next",
+    "prepare": "pnpm install",
+    "postinstall": "npx prisma generate"
   },
   "dependencies": {
     "@prisma/client": "^5.14.0",

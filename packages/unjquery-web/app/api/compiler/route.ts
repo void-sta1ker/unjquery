@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { PrismaClient } from "@prisma/client";
-import unjquery from "unjquery-core/dist/unjquery.js";
+import unjquery from "unjquery-core/unjquery";
 
 const prisma = new PrismaClient();
 
