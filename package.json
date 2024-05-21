@@ -28,7 +28,6 @@
     "format:check": "prettier --check .",
     "lint": "eslint . --ext .js,.ts,.tsx",
     "clean": "rimraf dist",
-    "prepare": "pnpm install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
