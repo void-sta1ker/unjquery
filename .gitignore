@@ -37,7 +37,7 @@ dist-ssr
 
 # tmp folders for development and testing
 # packages/unjquery-core/examples
-# packages/unjquery-core/out
+packages/unjquery-core/out
 
 # dependencies
 /.pnp
