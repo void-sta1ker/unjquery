@@ -25,6 +25,7 @@ export type Method =
   | "appendTo"
   | "end"
   | "find"
+  | "closest"
   | "click"
   | "toggle";
 

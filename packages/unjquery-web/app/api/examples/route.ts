@@ -84,7 +84,9 @@ $({ foo: "bar", hello: "world" }).prop("foo");
 
 $(document.body).css("background", "black");
 
-$("p").fadeIn();`;
+$("p").fadeIn();
+
+$(".test1").closest(".test2").css("color", "red");`;
 
 export async function GET(request: Request) {
   return NextResponse.json(

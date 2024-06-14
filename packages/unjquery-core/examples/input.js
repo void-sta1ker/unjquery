@@ -66,3 +66,5 @@ $({ foo: "bar", hello: "world" }).prop("foo");
 $(document.body).css("background", "black");
 
 $("p").fadeIn();
+
+$(".test1").closest(".test2").css("background", "red");
